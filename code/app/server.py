@@ -14,10 +14,10 @@ from tornado.options import define, options
 from tornado import gen
 from tornado.concurrent import run_on_executor
 from concurrent.futures import ThreadPoolExecutor
-from preprocess_request import clean_text,data_lstm
-from keras.models import load_model
 sys.path.append(os.path.realpath('../'))
 sys.path.append(os.path.realpath('../../'))
+from preprocess_request import clean_text,data_lstm
+from keras.models import load_model
 
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s[%(name)s][%(levelname)s] %(message)s',
