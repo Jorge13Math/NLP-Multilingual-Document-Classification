@@ -79,7 +79,7 @@ Topic Modeling:
 For this task, was used **LDA** (Latent Dirichlet Allocation) to find different topics in the dataset.
 To reproduce the results, go to **Topic Modeling  LDA.ipynb**
 
-**CONCLUSION**
+# CONCLUSION
 
 
 In accordance with the objectives set out in the test, two types of neural networks were used to classify the text regardless of the language. The results showed that the optimal way to classify this type of text is to use LSTM because its implementation predicts sequences and in this case, the text had different sequences for each language.
