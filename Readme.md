@@ -1,5 +1,5 @@
 # Introduction
-This repository is used to show the result and methodology used to achieve the objectives for EA test
+This repository aims to show the result and the methodology used to achieve the objectives of the EA technical test. The tasks are based on natural language processing, using Python programming language for their development.
 
 # Getting Started
 
@@ -35,7 +35,7 @@ This repository is used to show the result and methodology used to achieve the o
 # Methodology
 The repository is structured in the following folders:
 
- * code: You will find the python scripts and a folder called notebooks.
+ * code: You will find the python scripts and a folder called "notebooks".
 
 * data: You will find the folders categorized by documents and the CSV file generated in point 1.
 
