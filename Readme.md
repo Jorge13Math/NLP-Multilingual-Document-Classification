@@ -81,10 +81,10 @@ To reproduce the results, go to **Topic Modeling  LDA.ipynb**
 
 # CONCLUSION
 
+In accordance with the objectives established in the test; For objective 1, two types of neural networks were used to classify the text regardless of language. The results showed that the optimal way to classify this type of text is to use LSTM because its implementation predicts sequences and, in this case, the text had different sequences for each language.
 
-In accordance with the objectives set out in the test, two types of neural networks were used to classify the text regardless of the language. The results showed that the optimal way to classify this type of text is to use LSTM because its implementation predicts sequences and in this case, the text had different sequences for each language.
+On the other hand, for objective 2, 10 different topics were found for each language regarding document categorizations. This helps to identify the document according to its context.
 
+It should be noted that the data set was not balanced as the model was expected to perform better for the highest frequency class, therefore, it was decided to use the precision vs recall curve metric to optimally measure each class. As a following approach, classes can be balanced using the following technique: **Smote**
 
-It should be noted that the dataset was unbalanced, as expected the model obtained better results for the highest frequency class, therefore, it was decided to use the precision vs recall curve metric to optimally measure each class. As a next approach, the classes can be balanced using the following technique: **Smote**
-
-In order to show the results in an interactive way and make it easier for the user to test the model, a website was created using "Python" programming language with "Tornado" framework. The user can write any text and the web returns the result of the classification. 
+To display the results in an interactive way and to make it easier for the user to test the model, a website was created using `Python` programming language with "Tornado" framework. The user can write any text and the web returns the result of the classification.
