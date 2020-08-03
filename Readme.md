@@ -87,4 +87,4 @@ On the other hand, for objective 2, 10 different topics were found for each lang
 
 It should be noted that the data set was not balanced as the model was expected to perform better for the highest frequency class, therefore, it was decided to use the precision vs recall curve metric to optimally measure each class. As a following approach, classes can be balanced using the following technique: **Smote**
 
-To display the results in an interactive way and to make it easier for the user to test the model, a website was created using `Python` programming language with "Tornado" framework. The user can write any text and the web returns the result of the classification.
+To display the results in an interactive way and to make it easier for the user to test the model, a website was created using `Python` programming language with ´Tornado´ framework. The user can write any text and the web returns the result of the classification.
