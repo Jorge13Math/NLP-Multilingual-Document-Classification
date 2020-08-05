@@ -13,11 +13,12 @@ This repository aims to show the result and the methodology used to achieve the 
     * python -m spacy download fr_core_news_sm
     * python -m spacy download es_core_news_sm
     
-
-
-
 1. Software dependencies
     * All python packages needed are included in `requirements.txt`
+    
+1. Generate Dataset
+    *  Run this notebook **Generate Dataframe.ipynb** to create dataset
+    *  Verify that the dataset is in this folder `data\dataset_multilng.csv`
 
 1. Test the model:
     * If step 1 is OK you can run the line's code below to deploy a server and test the model.
