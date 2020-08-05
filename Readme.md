@@ -21,7 +21,7 @@ This repository aims to show the result and the methodology used to achieve the 
     *  Verify that the dataset is in this folder `data\dataset_multilng.csv`
 
 1. Test the model:
-    * If step 1 is OK you can run the line's code below to deploy a server and test the model.
+    * If step 1 and 3 are OK you can run the line's code below to deploy a server and test the model.
     * Go to **app** folder 
     ```
     cd code\app
