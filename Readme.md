@@ -47,7 +47,7 @@ The repository is structured in the following folders:
 1. A dataset was created with all the files that are in the data folder
     * To view the Dataset go to **Generate Dataframe.ipynb** 
 
-**OBJECTIVE 1**: Create a document categorization classifier for the different contexts of the documents
+**OBJECTIVE 1**: Create a document categorization classifier for the different languages(English, Spanish, French)
 
 **Pre-process**
 
